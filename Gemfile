@@ -9,6 +9,9 @@ group :development, :test do
   gem 'rspec-rails', '2.13.1'
   gem 'guard', '2.6.1'
   gem 'guard-rspec', '2.5.0'
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '1.5.0'
+  # gem 'childprocess', '0.3.6'
 end
 
 group :test do
@@ -21,9 +24,6 @@ group :test do
   # Uncomment these lines on Windows.
   # gem 'rb-notifu', '0.0.4'
   # gem 'win32console', '1.3.2'
-  gem 'spork-rails', '4.0.0'
-  gem 'guard-spork', '1.5.0'
-  gem 'childprocess', '0.3.6'
 end
 
 gem 'sass-rails', '4.0.5'
